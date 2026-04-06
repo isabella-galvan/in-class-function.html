@@ -1,18 +1,17 @@
 <!DOCTYPE html>
 <html> 
 <body>
-<p id="addition"> </p>
+<p id="addition"></p>
 
 <script>
 function add(a, b, c) {
-return a + b + c
+  return a + b + c;
 }
 
 let result = add(3, 1, 5);
 
-document.getElementById("addition").innerHTML = "The sum is" +
-result:
-< script>
+document.getElementById("addition").innerHTML = "The sum is " + result;
+</script>
 
 </body> 
 </html>
